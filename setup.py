@@ -16,7 +16,9 @@
 from setuptools import setup
 import versioneer
 
-setup(
+setup(scripts=['AutoDockTools/Utilities24/prepare_receptor4.py',
+        'AutoDockTools/Utilities24/prepare_ligand4.py‘]
+
     name='AutoDockTools_py3',
     version = versioneer.get_version(),
     cmdclass = versioneer.get_cmdclass(),
